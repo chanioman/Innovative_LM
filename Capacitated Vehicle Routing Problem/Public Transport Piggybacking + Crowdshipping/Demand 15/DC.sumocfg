@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/sumoConfiguration.xsd">
+    <input>
+        <net-file value="DC.net.xml"/>
+        <route-files value="piggybacking+crowdshipping.rou.xml"/>
+		<additional-files value= "BusStops_DeliveryLocations.add.xml"/>
+    </input>
+
+    <output>
+        
+        <tripinfo-output value="A.xml"/>
+    
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3000"/>
+    </time>
+    <time-to-teleport value="-1"/>
+
+    <report>
+        
+        <xml-validation value="never"/>
+        
+        <duration-log.disable value="true"/>
+        
+        <no-step-log value="true"/>
+    
+    </report>
+
+
+
+</configuration>
+
+       

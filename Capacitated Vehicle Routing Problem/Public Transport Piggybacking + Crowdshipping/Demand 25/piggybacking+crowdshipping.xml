@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 01/27/21 17:11:47 by Eclipse SUMO GUI Version 1.4.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\Sumo\Dissertation\DC\Capacitated%20Vehicle%20Routing%20Problem\Public%20Transport%20Piggybacking%20+%20Crowdshipping\Demand%2025\DC.net.xml"/>
+        <route-files value="D:\Sumo\Dissertation\DC\Capacitated%20Vehicle%20Routing%20Problem\Public%20Transport%20Piggybacking%20+%20Crowdshipping\Demand%2025\piggybacking+crowdshipping.rou.xml"/>
+        <additional-files value="D:\Sumo\Dissertation\DC\Capacitated%20Vehicle%20Routing%20Problem\Public%20Transport%20Piggybacking%20+%20Crowdshipping\Demand%2025\BusStops_DeliveryLocations.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="D:\Sumo\Dissertation\DC\Capacitated%20Vehicle%20Routing%20Problem\Public%20Transport%20Piggybacking%20+%20Crowdshipping\Demand%2025\piggybacking+crowdshipping.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3000"/>
+    </time>
+
+    <processing>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <report>
+        <xml-validation value="never"/>
+        <duration-log.disable value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+</tripinfos>
