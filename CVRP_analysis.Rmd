@@ -2,23 +2,27 @@
 title: "analysis_DC_mk.R"
 author: "Dylan Johnson"
 date: "06/05/2021"
-output: html_document
+output: rmarkdown::github_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(
+  fig.path = "README_figs/README-"
+)
 ```
-
 ## R Markdown
 
 
-```{r libraries}
+```{r libraries, message = FALSE, warning = FALSE}
 library(ggplot2)
 library(ggpubr)
 library(ggthemes)
 library(viridis)
 library(hrbrthemes)
 library(tidyverse)
+library(knitr)
+opts_chunk$set(dev="png")
+
 ```
 
 
@@ -191,7 +195,4 @@ Waiting_time  <- ggplot(network_macroscopic, aes(x = Scenario, y = waitingTime_h
   guides(fill=guide_legend(title= "Delivery \nDemand")) +
   scale_x_discrete(limits = c( "BC", "CL (R)", "CL", "PT", "PT + CL"))
 Waiting_time
-
 ```
-
-
