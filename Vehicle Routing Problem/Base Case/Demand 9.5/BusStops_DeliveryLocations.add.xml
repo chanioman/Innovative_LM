@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 08/13/20 13:38:52 by Eclipse SUMO netedit Version 1.4.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="D:\Sumo\Dissertation\DC\Base%20Case\Demand%208.5\DC.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="D:\Sumo\Dissertation\DC\Base%20Case\Demand%208.5\DC.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="D:\Sumo\Dissertation\DC\Base%20Case\Demand%208.5\BusStops_DeliveryLocations.add.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="BusStop_0" lane="806271971_0" startPos="40.00" endPos="50.62" lines="West Line"/>
+    <busStop id="BusStop_1" lane="112319055#1_0" startPos="87.36" endPos="117.36" lines="Line West"/>
+    <busStop id="BusStop_10" lane="806271971_0" startPos="28.52" endPos="38.52" lines="Line East"/>
+    <busStop id="BusStop_11" lane="-507341801_0" startPos="52.82" endPos="62.82" lines="Line East"/>
+    <busStop id="BusStop_12" lane="-6062805#2_0" startPos="29.15" endPos="39.15" lines="Line East"/>
+    <busStop id="BusStop_13" lane="-6062805#1_0" startPos="150.35" endPos="160.35" lines="LIne East"/>
+    <busStop id="BusStop_14" lane="-637504388#5_0" startPos="16.65" endPos="46.65" lines="Line East"/>
+    <busStop id="BusStop_15" lane="421789039#0_0" startPos="12.23" endPos="22.23" lines="Line East"/>
+    <busStop id="BusStop_16" lane="421790823_0" startPos="8.01" endPos="18.01" lines="Line East"/>
+    <busStop id="BusStop_17" lane="6054382#3_0" startPos="130.22" endPos="140.22" lines="Line East"/>
+    <busStop id="BusStop_2" lane="421800694#2_0" startPos="0.00" endPos="31.57" lines="Line West"/>
+    <busStop id="BusStop_3" lane="-6054454#2_0" startPos="18.02" endPos="28.02" lines="Line West"/>
+    <busStop id="BusStop_4" lane="-6061786#9_0" startPos="26.17" endPos="36.17" lines="Line West"/>
+    <busStop id="BusStop_5" lane="-6061783#0_0" startPos="10.78" endPos="20.78" lines="Line West"/>
+    <busStop id="BusStop_6" lane="-6060452#5_0" startPos="25.59" endPos="35.59" lines="Line West"/>
+    <busStop id="BusStop_7" lane="-6057932#0_0" startPos="113.15" endPos="123.15" lines="Line West"/>
+    <busStop id="BusStop_8" lane="6058243#5_0" startPos="33.84" endPos="43.84" lines="Line West"/>
+    <busStop id="BusStop_9" lane="-806271971_0" startPos="11.26" endPos="21.26" lines="Line West"/>
+    <containerStop id="Container_1" lane="6060452#11_0" startPos="26.77" endPos="36.77" name="Container_1"/>
+    <containerStop id="Container_10" lane="421789044#1_0" startPos="20.71" endPos="51.71" name="Container_10"/>
+    <containerStop id="Container_11" lane="421790823_0" startPos="33.93" endPos="58.56" name="Container_11" friendlyPos="1"/>
+    <containerStop id="Container_12" lane="-421789039#0_0" startPos="41.09" endPos="62.12" name="Container_12" friendlyPos="1"/>
+    <containerStop id="Container_13" lane="-6055573#6_0" startPos="8.41" endPos="18.42" name="Container_13" friendlyPos="1"/>
+    <containerStop id="Container_14" lane="-112319055#1_0" startPos="5.19" endPos="25.19" name="Container_14"/>
+    <containerStop id="Container_15" lane="6061786#4_0" startPos="13.79" endPos="34.48" name="Container_15" friendlyPos="1"/>
+    <containerStop id="Container_2" lane="6054454#2_0" startPos="80.80" endPos="103.20" name="containerStop_2" friendlyPos="1"/>
+    <containerStop id="Container_3" lane="-6057932#0_0" startPos="158.10" endPos="188.62" name="Container_3" friendlyPos="1"/>
+    <containerStop id="Container_4" lane="-6061783#1_0" startPos="10.11" endPos="30.09" name="Container_4" friendlyPos="1"/>
+    <containerStop id="Container_5" lane="-421800694#2_0" startPos="1.05" endPos="21.05" name="Container_5"/>
+    <containerStop id="Container_6" lane="-507341801_0" startPos="20.82" endPos="46.28" name="Container_6" friendlyPos="1"/>
+    <containerStop id="Container_7" lane="-6062805#2_0" startPos="5.79" endPos="25.00" name="Container_7" friendlyPos="1"/>
+    <containerStop id="Container_8" lane="637504388#5_0" startPos="25.75" endPos="47.75" name="Container_8"/>
+    <containerStop id="Container_9" lane="507036327#1_0" startPos="111.96" endPos="141.96" name="Container_9"/>
+    <containerStop id="Depot" lane="806271971_0" startPos="8.02" endPos="28.02"/>
+</additional>
