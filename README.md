@@ -13,10 +13,13 @@ This project is useful since it provides an open-sourced presentation of various
  4. Public Transport Piggybacking (PT)- Capture the effects of integrating freight delivery into passenger transportation services.
  5. Public Transport Piggybacking with Crowdshipping (PT + CL)- An extension to the PT scenario and present a novel logistic service opportunity where micro-depots provide the infrastructure requirements for crowd-shipping services to delivery the ”very last mile” low-capacity service.
 
+We recommned that users develop our simulations in the following key areas: 
+1. Many of our input values lacked realism: traffic data was randomly generated and simulated at differing levels of congestion, the weight of a delivery was assumed to approximate to a log-normal distribution, and bus routes and delivery locations were created on an ad-hoc basis. Therefore, we advise further studies to employ real-world data on those above mentioned inputs to more accurately simulate reality.
+2. Crowd-shippers were always assumed willing to complete the necessary quantity of crowdshipped deliveries. While Gatta et al., 2019 has contributed to the behavioural aspects of crowd logistics, the literature in the field remains underdeveloped and thus with revealed or stated preference data, future studies should consider this potential market imperfection between the demand and supply of crowdshippers at different time periods and traffic conditions.
+3. To represent the possibility of the crowd-detouring to complete crowdshipping trips, we created two scenarios, one representing a complete detour with a return journey and the other representing a best-case scenario where the crowdshippers trip ends at the point of delivery. Again, further developments to crowd logistics behavioural literature would enhance the simulations’ accuracy. However, in absence of this, a further scenario could be employed to represent a more realistic crowd logistics approach
 
-Users can further develope our simulations through adding additional ...
 
-The contributes of this project were Dylan Johnson and Manos Chianoakis. 
+The authors of this project were Dylan Johnson and Manos Chianoakis and was made possible as part of the Bartlett Research Grant Scheme 2020-21. For direct questions feel free to email the authors at dylan.johnson.19@ucl.ac.uk and m.chaniotakis@ucl.ac.uk. 
 
 We hope you enjoy ! 
 
