@@ -19,7 +19,7 @@ We recommned that users develop our simulations in the following key areas:
 3. To represent the possibility of the crowd-detouring to complete crowdshipping trips, we created two scenarios, one representing a complete detour with a return journey and the other representing a best-case scenario where the crowdshippers trip ends at the point of delivery. Again, further developments to crowd logistics behavioural literature would enhance the simulations’ accuracy. However, in absence of this, a further scenario could be employed to represent a more realistic crowd logistics approach.
 4. There is scope for advancements on the vehicle routing problem design to more realistically consider the constraints faced by courier services. Notably, future work should consider including time-windows constraints to more aptly consider demand necessities across a time period. 
 5.  Loading and unloading could be integrated as part of the vehicle routing problem rather than having it exogenously input. Neglected in our work was an adequate consideration of parking availability at the point of delivery. Instead, information about parking availability and parking demand for each road within the network could be provided as a simulation input. 
-6. The likely heterogeneous parking behaviours from those employed by couriers and from crowdshippers.
+6. The likely heterogeneous parking behaviours from those employed by couriers and from crowdshippers could be explored.
 
 
 The authors of this project were Dylan Johnson and Manos Chianoakis and was made possible as part of the Bartlett Research Grant Scheme 2020-21. For direct questions feel free to email the authors at dylan.johnson.19@ucl.ac.uk and m.chaniotakis@ucl.ac.uk. 
