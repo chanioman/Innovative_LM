@@ -13,6 +13,15 @@ This project is useful since it provides an open-sourced presentation of various
  4. Public Transport Piggybacking (PT)- Capture the effects of integrating freight delivery into passenger transportation services.
  5. Public Transport Piggybacking with Crowdshipping (PT + CL)- An extension to the PT scenario and present a novel logistic service opportunity where micro-depots provide the infrastructure requirements for crowd-shipping services to delivery the ”very last mile” low-capacity service.
 
+The steps to run the simulations are as follows:
+1. Download SUMO
+2. Run the VRP_code.R on the files specified in the Vehicle Routing Problem folder. If you want to see how the routes were generated have a look at the VRP python notebook with for the correct scenario i.e. base case scenario would be VRP_BC.ipynb.
+3. Check out the fun visuals we made with ggplot2 :). For viewing on Github check the VRP_analysis_markdown.md file or if you want to run them yourself please pull the VRP_analysis_markdown.Rmd file. 
+4. Repeat steps for the Capacitated Vehicle Routing Files. 
+5. For the Micro Depot analysis it is slightly different. The code and analysis can be found in one file (ucc_markdown.md for viewing ucc_markdown.Rmd for pulling). Please note the change in the CombinedStops.add.xml file compared to the previous simulations.
+6. Enjoy, add, and let us know what you think!
+
+
 We recommned that users develop our simulations in the following key areas: 
 1. Many of our input values lacked realism: traffic data was randomly generated and simulated at differing levels of congestion, the weight of a delivery was assumed to approximate to a log-normal distribution, and bus routes and delivery locations were created on an ad-hoc basis. Therefore, we advise further studies to employ real-world data on those above mentioned inputs to more accurately simulate reality.
 2. Crowd-shippers were always assumed willing to complete the necessary quantity of crowdshipped deliveries. While Gatta et al., 2019 has contributed to the behavioural aspects of crowd logistics, the literature in the field remains underdeveloped and thus with revealed or stated preference data, future studies should consider this potential market imperfection between the demand and supply of crowdshippers at different time periods and traffic conditions.
